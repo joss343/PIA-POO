@@ -1,0 +1,112 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #002b2b;
+}
+
+.container {
+    background: #fff;
+    width: 80%;
+    height: 565px;
+    box-sizing: border-box;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#fecha-hora {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-cancelar {
+    background-color: #c40000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100px;
+}
+
+/* Formulario */
+.main {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.formulario-stock {
+    width: 80%;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 40px;
+}
+
+.titulo-formulario {
+    background-color: #f5e39b;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 8px 8px 0 0;
+    margin-top: -20px;
+    margin-left: -20px;
+    margin-right: -20px;
+    font-size: 22px;
+}
+
+.form-group {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group select,
+.form-group input {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Botones finales */
+.acciones {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.btn-regresar,
+.btn-guardar {
+    background-color: #b45309;
+    color: white;
+    padding: 12px 24px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 45px;
+}
+
+.btn-regresar {
+    background-color: #b45309;
+}
+
+.btn-guardar {
+    background-color: #b45309;
+}

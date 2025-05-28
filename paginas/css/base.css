@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #002c2f;
+}
+
+.container {
+    background-color: white;
+    width: 80%;
+    height: 565px;
+    margin: 30px auto;
+    border-radius: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fecha {
+    font-size: 14px;
+    color: black;
+}
+
+.salir {
+    background-color: #a4150f;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100px;
+}

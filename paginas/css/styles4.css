@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #002c2f;
+}
+
+.container {
+    background-color: white;
+    width: 80%;
+    height: 565px;
+    margin: 30px auto;
+    border-radius: 20px;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.fecha {
+    font-size: 14px;
+    color: black;
+}
+
+.cancelar {
+    background-color: #a4150f;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.titulo {
+    background-color: #f9ec9d;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 20px;
+    width: 90%;
+    border: 2px solid #000;
+}
+
+
+
+.etiqueta {
+    font-size: 18px;
+}
+
+.total-section {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+}
+
+.total-label {
+    background-color: #f9ec9d;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.total-monto {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px 30px;
+    font-size: 20px;
+    width: 180px;
+    text-align: center;
+}
+
+.opcion-pago {
+    margin: 50px 0 30px;
+    border: 2px solid #666;
+    border-radius: 10px;
+    padding: 30px 50px;
+    text-align: center;
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+
+.opcion-pago:active {
+    background-color: #ddd;
+}
+
+.opcion-pago .icono {
+    margin-bottom: 10px;
+}
+
+.opcion-pago {
+    font-family: inherit;
+    font-size: inherit;
+    border: none;
+    outline: none;
+}

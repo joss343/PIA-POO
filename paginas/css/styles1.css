@@ -1,0 +1,70 @@
+/* Fondo de la página */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #00292f;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Contenedor del formulario */
+  .form-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 30px;
+    width: 650px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  /* Título */
+  .form-container h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  /* Etiquetas */
+  form label {
+    display: block;
+    text-align: left;
+    font-size: 18px;
+    margin: 15px 0 5px 0;
+  }
+  
+  /* Campos de entrada */
+  form input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 8px;
+  }
+  
+  /* Estilo especial para el campo de correo */
+  form input[type="email"] {
+    background-color: #f2f2f2;
+  }
+  
+  /* Botón */
+  form button {
+    margin-top: 25px;
+    padding: 10px 25px;
+    background-color: #a64600;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Efecto hover */
+  form button:hover {
+    background-color: #7a3200;
+  }
+  

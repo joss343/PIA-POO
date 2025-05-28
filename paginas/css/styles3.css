@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #002c2f;
+}
+
+.container {
+    background-color: white;
+    width: 80%;
+    height: 565px;
+    margin: 30px auto;
+    border-radius: 20px;
+    padding: 20px 30px;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+}
+
+.fecha {
+    font-size: 14px;
+    color: black;
+}
+
+.botones-superior-centrado {
+    position: absolute;
+    top: 0;
+    left: 90%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+}
+
+.cancelar,
+.editar {
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.cancelar {
+    background-color: #a4150f;
+}
+
+.editar {
+    background-color: #c55312;
+}
+
+.contenido {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.lista-compra {
+    width: 60%;
+    height: 450px;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.lista-compra h2 {
+    margin: 0;
+    background-color: #f9ec9d;
+    text-align: center;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 2px solid #666;
+}
+
+.lista-compra table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.lista-compra th {
+    padding: 10px;
+    font-size: 14px;
+}
+
+.panel-total {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 15px;
+    padding-top: 275px;
+}
+
+.total-label {
+    background-color: #f9ec9d;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.total-valor {
+    border: 2px solid black;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: white;
+    line-height: 30px;
+}
+
+.pagar {
+    background-color: #a14000;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    padding: 15px 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
